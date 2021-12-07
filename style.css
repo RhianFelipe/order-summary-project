@@ -1,0 +1,110 @@
+*{
+   
+    padding: 0;
+    border: 0;
+    margin: 0;
+ 
+}
+
+.container{
+    text-align: center;
+display: flex;
+justify-content: center;
+   background-color: hsl(225, 100%, 94%);
+   height: 50rem;
+}
+.main{
+  background-color: white;
+  width: 20rem;
+  height: 30rem ;
+  margin-top: 5rem;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.container img{
+    display: block;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    max-width: 100%;
+}
+h1{
+    font-family: 'Red Hat Display', sans-serif;   
+    margin-top: 1.4rem;
+    font-size: 1.4rem;
+    color: hsl(223, 47%, 23%);
+}
+p{
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+   margin-top: 0.9rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+
+   
+}
+
+.pay{
+ display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pay div{
+    margin-top: 0.5rem;
+    margin-left: 1em;
+    margin-right: 3rem;
+}
+.pay img{
+    margin-top: 7px;
+width: 2.5rem;
+height: 2.5rem;
+}
+.pay a{
+margin-top: 1rem;
+font-family: 'Red Hat Display', sans-serif;  
+font-size: 14px;
+}
+
+h6{
+    font-family: 'Red Hat Display', sans-serif;   
+    font-size: 15px;
+    width:80px;
+    color: rgb(27, 23, 23);
+   
+   
+}
+legend{
+    font-family: 'Red Hat Display', sans-serif;  
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.link .pay{
+    background-color: hsl(245, 75%, 52%);
+    margin: 1rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.link a{
+   color:hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;  
+    text-decoration: none;
+}
